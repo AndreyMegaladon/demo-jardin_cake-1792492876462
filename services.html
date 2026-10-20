@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню — Jardin Дрогобич</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 text-stone-800 font-sans">
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-stone-200">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-bold tracking-wider text-amber-700">JARDIN</a>
+            <nav class="hidden md:flex items-center space-x-2">
+                <a href="index.html" class="px-4 py-2 rounded-lg hover:bg-amber-50 text-stone-700 font-medium transition">Головна</a>
+                <a href="about.html" class="px-4 py-2 rounded-lg hover:bg-amber-50 text-stone-700 font-medium transition">Про нас</a>
+                <a href="services.html" class="px-4 py-2 rounded-lg bg-amber-500 text-white font-medium">Меню</a>
+                <a href="gallery.html" class="px-4 py-2 rounded-lg hover:bg-amber-50 text-stone-700 font-medium transition">Галерея</a>
+                <a href="booking.html" class="px-4 py-2 rounded-lg hover:bg-amber-50 text-stone-700 font-medium transition">Бронювання</a>
+                <a href="contacts.html" class="px-4 py-2 rounded-lg hover:bg-amber-50 text-stone-700 font-medium transition">Контакти</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="bg-stone-100 py-4 border-b">
+        <div class="max-w-6xl mx-auto px-6 text-sm text-stone-600">
+            <a href="index.html" class="hover:underline">Головна</a> > <span>Меню</span>
+        </div>
+    </div>
+
+    <main class="py-20 px-6 max-w-6xl mx-auto">
+        <h1 class="text-4xl font-bold mb-4 text-center">Наше меню</h1>
+        <p class="text-stone-600 text-center mb-16">Оберіть улюблені кавові напої та десерти</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd" alt="Еспресо" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-amber-600">Кава</span>
+                    <h3 class="text-xl font-bold mt-1 mb-2">Еспресо</h3>
+                    <p class="text-stone-600 text-sm mb-4">Класична кава еспресо</p>
+                    <div class="flex justify-between items-center"><span class="text-lg font-bold text-amber-700">45₴</span></div>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d" alt="Капучино" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-amber-600">Кава</span>
+                    <h3 class="text-xl font-bold mt-1 mb-2">Капучино</h3>
+                    <p class="text-stone-600 text-sm mb-4">Ароматна кава з ніжною молочною пінкою</p>
+                    <div class="flex justify-between items-center"><span class="text-lg font-bold text-amber-700">62₴</span></div>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1534778101976-62847782c213" alt="Кава Латте" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-amber-600">Кава</span>
+                    <h3 class="text-xl font-bold mt-1 mb-2">Кава Латте</h3>
+                    <p class="text-stone-600 text-sm mb-4">М'який кавово-молочний напій</p>
+                    <div class="flex justify-between items-center"><span class="text-lg font-bold text-amber-700">63₴</span></div>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed" alt="Какао" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-amber-600">Напої</span>
+                    <h3 class="text-xl font-bold mt-1 mb-2">Какао</h3>
+                    <p class="text-stone-600 text-sm mb-4">Класичне гаряче какао</p>
+                    <div class="flex justify-between items-center"><span class="text-lg font-bold text-amber-700">58₴</span></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-stone-900 text-stone-300 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Jardin</h3>
+                <p class="text-sm text-stone-400">Кав'ярня-кондитерська у Дрогобичі. Затишна атмосфера та неперевершені десерти.</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold text-white mb-4">Контакти</h4>
+                <p class="text-sm text-stone-400 mb-2">вул. Трускавецька, 1, Дрогобич</p>
+                <p class="text-sm text-stone-400 mb-2">+380961540571</p>
+                <p class="text-sm text-stone-400">info@jardin.ua</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold text-white mb-4">Години роботи</h4>
+                <p class="text-sm text-stone-400 mb-2">Пн-Сб: 08:00 - 21:00</p>
+                <p class="text-sm text-stone-400">Нд: 10:00 - 21:00</p>
+            </div>
+        </div>
+    </footer>
+<script>
+    document.getElementById('mobile-toggle')?.addEventListener('click', function() {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+</body>
+</html>
